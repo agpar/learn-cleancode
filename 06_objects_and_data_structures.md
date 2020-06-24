@@ -39,8 +39,11 @@ called a **Train Wreck**, because it looks like a bunch of tightly coupled train
 tends to hide how *deep* the chain of dependence is. When this code is expanded, we can see how many
 foreign classes the code is depending on.
 
-``` Options opts = this.context.getOptions(); File tempDir = opts.getTempDir(); String tempPath =
-tempDir.getPath(); ```
+``` 
+Options opts = this.context.getOptions();
+File tempDir = opts.getTempDir();
+String tempPath = tempDir.getPath();
+```
 
 This function, therefore, has to have a high degree of knowledge about multiple classes - that is,
 it has to "see through" the abstraction provided by a "nearby" object in order to access a

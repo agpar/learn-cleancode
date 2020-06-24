@@ -13,8 +13,15 @@ with business logic, like below, where Service now is 1) substituting a concrete
 not always be appropriate and 2) responsible for knowing how to instantiate a `MyServiceImpl`. This
 is a bad break down of modularity and will cause havoc for testing and flexibility.
 
-```java public Service getService() { if (service == null) { // Good enough default for most cases?
-service = new MyServiceImpl(...); } return service; } ```
+```
+java public Service getService() { 
+    if (service == null) { 
+        // Good enough default for most cases?
+        service = new MyServiceImpl(...); 
+    } 
+    return service; 
+} 
+```
 
 How, instead, should we go about setting up graphs of objects that depend on each other?
 

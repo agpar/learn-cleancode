@@ -14,8 +14,8 @@ done under pressure) will often require a new "grand redesign" by the time it's 
 
 Engineers are just as complicit as any other part of the company for allowing this to happen.
 Management and marketing do not have the necessary skills to accurately forecast a technical project
-- engineers need to defend realistic goals and expectations. If we agree to rush and do things
-poorly, we're part of the problem.
+engineers need to defend realistic goals and expectations. If we agree to rush and do things poorly,
+we're part of the problem.
 
 > All developers with more than a few years experience know that previous messes slow them down. And
 > yet all developers feel the pressure to make messes in order to meet deadlines.

@@ -45,7 +45,8 @@ at a lower level of abstraction. It should be possible to read the class from to
 running into (private) functions whose use has already been seen.
 
 ```
-java public class Example() { public void A() { B(); C(); }
+java public class Example() { 
+    public void A() { B(); C(); }
 
     private void B() { if (D()) { E(); } return F(); }
 
